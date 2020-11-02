@@ -1,1 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2020-11-02T10:25:44.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" version="13.8.8" etag="AVft0lkpkvTrtWiNoH33" type="github"><diagram id="zXa5C-i7IimhRvcEz5qb">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-11-02T10:42:56.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="7MITpLsssHjAZkWJX-mf" version="13.8.8" type="github" pages="2">
+  <diagram id="zXa5C-i7IimhRvcEz5qb" name="Step 1: Requirement Analysis">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RKG86kGhGenvlKAURwpZ-1" value="book" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-2" value="published date" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-4" value="description" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-5" value="genre" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-6" value="name" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-7" value="title" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-11" value="Author" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-12" value="date of birth" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-13" value="name" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-14" value="Reader" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-15" value="date of birth" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-16" value="sex" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="60" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-17" value="sex" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RKG86kGhGenvlKAURwpZ-18" value="purchase date" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HD0_Krj9YJb79Sd5l8ee" name="Step 2: ER Model">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="t7of3dR5T0XA15YOv-eq-0" />
+        <mxCell id="t7of3dR5T0XA15YOv-eq-1" parent="t7of3dR5T0XA15YOv-eq-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
